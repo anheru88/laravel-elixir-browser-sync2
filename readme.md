@@ -1,4 +1,4 @@
-## Laravel Elixir BrowserSync
+## Laravel Elixir BrowserSync2
 
 ![Version](https://img.shields.io/npm/v/laravel-elixir-browsersync2.svg?style=flat-square)
 
@@ -20,7 +20,7 @@ This is a simple wrapper around Laravel Elixir. Add it to your Elixir-enhanced G
 
 ```javascript
 var elixir = require('laravel-elixir');
-var BrowserSync = require('laravel-elixir-browsersync');
+var BrowserSync = require('laravel-elixir-browsersync2');
 
 elixir(function(mix) {
 	BrowserSync.init();
@@ -32,7 +32,7 @@ The second use is passing options to BrowserSync, acording the documentation of 
 
 ```javascript
 var elixir = require('laravel-elixir');
-var BrowserSync = require('laravel-elixir-browsersync');
+var BrowserSync = require('laravel-elixir-browsersync2');
 
 elixir(function(mix) {
 	BrowserSync.init();
