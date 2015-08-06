@@ -1,0 +1,31 @@
+{
+  "name": "laravel-elixir-browsersync2",
+  "version": "0.1.0",
+  "description": "Laravel Elixir Browser Sync Extension For Elixir 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anheru88/laravel-elixir-browser-sync2.git"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "gulp",
+    "Browser Sync"
+  ],
+  "author": "Angel Jimenez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anheru88/laravel-elixir-browser-sync2/issues"
+  },
+  "homepage": "https://github.com/anheru88/laravel-elixir-browser-sync2",
+  "dependencies": {
+    "browser-sync": "^2.2.5",
+    "gulp-notify": "^2.2.0",
+    "underscore": "^1.8.2",
+    "run-sequence": "^1.1.0"
+  }
+}
