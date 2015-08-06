@@ -1,6 +1,6 @@
 ## Laravel Elixir BrowserSync
 
-![Version](https://img.shields.io/npm/v/laravel-elixir-browsersync.svg?style=flat-square)
+![Version](https://img.shields.io/npm/v/laravel-elixir-browsersync2.svg?style=flat-square)
 
 
 ## Install
