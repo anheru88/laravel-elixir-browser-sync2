@@ -35,6 +35,8 @@ var initializePlugin = function(){
         }, options);
 
         src = src || defaultSrc;
+        
+         browserSync.init(options);
 
         new Task("BrowserSync", function(){
 
@@ -51,11 +53,11 @@ var initializePlugin = function(){
 
             notify_message('Laravel Elixir BrowserSync', '', 'Start', '/../laravel-elixir/icons/pass.png');
             
-            browserSync.init(options);
+           
 
-            gulp.watch(src).on("change", browserSync.reload);
+            browserSync.reload();
 
-        });
+        }).watch(src);
 
     });
 
